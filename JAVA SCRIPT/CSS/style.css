@@ -1,0 +1,55 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(124, 178, 174);
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    line-height: 50px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+.vid {
+    width: 100px;
+    padding: 2px;
+    background-color: gray;
+    position: relative;
+}
+.sal {
+    width: 100%;
+    color: white;
+    overflow: visible;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgb(70, 173, 70);
+}
+form, .form {
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+input[type='text'], select {
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-bottom: solid 1px blue;
+    color: black
+    
+}
+input:focus {
+    outline: none;
+}
+input {
+    background-color: rgb(142, 142, 183);
+    color: white;
+    padding: 10px;
+    border:  none;
+}
+
+.con {
+    display: none;
+}
